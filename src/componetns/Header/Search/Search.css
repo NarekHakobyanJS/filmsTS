@@ -1,0 +1,12 @@
+.s-b > img{
+    width: 80px;
+}
+a {
+    color : black;
+    text-decoration: none;
+}
+.s-b{
+    display: flex;
+    align-items: center;
+    gap : 15px;
+}

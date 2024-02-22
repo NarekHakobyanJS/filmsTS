@@ -1,0 +1,22 @@
+.card img{
+    width: 100%;
+    border-radius: 30px;
+    transition: .3s all linear;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+.card {
+    overflow: hidden;
+    width: 300px;
+    border : 1px solid black;
+    padding: 14px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    text-align: center;
+    z-index: 99999;
+}

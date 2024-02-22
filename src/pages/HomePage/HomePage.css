@@ -1,0 +1,17 @@
+.movie-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.more{
+    width: 220px;
+    height: 45px;
+    background: gold;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+    cursor: pointer;
+}

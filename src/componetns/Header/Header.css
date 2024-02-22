@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    gap : 90px;
+    align-items: center;
+    position: sticky;
+    top : 0;
+    left: 0;
+    z-index: 999999;
+    background: black;
+}
+
+.genres{
+    width: 900px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : 20px;
+    height: 90px;
+}
+
+.search-block{
+    width: 300px;
+    height: 450px;
+    background: red;
+    position: absolute;
+    top : 45px;
+    left : 0;
+    z-index: 99999;
+    overflow-y: scroll;
+}
+
+.search{
+    position: relative;
+}
+
+.search > input {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 35px;
+}
+
+.s{
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+}

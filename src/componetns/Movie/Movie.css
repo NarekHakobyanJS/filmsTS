@@ -1,0 +1,20 @@
+.movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.go-back{
+    font-size: 25px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.M h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.img-img {
+    margin-right: 16px;
+}
